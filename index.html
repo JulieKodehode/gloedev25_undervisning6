@@ -12,8 +12,9 @@
 
   <!-- Body er kun for det som skal synes på selve nettsiden -->
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <img src="sun.png" alt="Logo som illustrerer en tegnet sol">
+      <nav class="headerNav">
         <a href="">Hjem</a>
         <a href="">Om meg</a>
         <a href="">Prosjekter</a>
@@ -21,20 +22,27 @@
     </header>
     <main>
       <!-- Hero-section -->
-      <section>
-        <h1>Velkommen til min side!</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id.</p>
-      </section>
-
-      <section>
-        <h2>Om meg</h2>
-      </section>
-
-      <section>
-        <h2>Prosjekter</h2>
+      <section class="heroSection">
+        <h1>Velkommen!</h1>
+        <div class="heroIntro">
+          <div class="heroText">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, in?</p>
+          </div>
+          <img class="heroImg" src="heroImg.jpg" alt="Bilderamme med tørket blomstrer">
+        </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
+      <div class="footerNav">
+        <nav>
+          <a href="">Finn meg på Github</a>
+        </nav>
+        <nav>
+          <a href="">Portfolio</a>
+        </nav>
+      </div>
+      <img src="sun.png" alt="Logo som illustrerer en tegnet sol">
       <h3>Laget av Julie</h3>
     </footer>
   </body>
